@@ -61,7 +61,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) //SO THAT THE STOPWATCH WILL NOT RESTART WHEN SCGREEN WAS ROTATED
+    public void onSaveInstanceState(Bundle savedInstanceState) //SO THAT THE STOPWATCH WILL NOT RESTART WHEN SCREEN WAS ROTATED
     {
         savedInstanceState.putInt("seconds", seconds);
         savedInstanceState.putBoolean("isRunning", isRunning);
